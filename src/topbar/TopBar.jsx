@@ -4,10 +4,10 @@ const TopBar = () => {
     return (
         <div className="top">
             <div className="topLeft">
-                <i className="fab fa-facebook-square"></i>
-                <i className="fab fa-twitter-square"></i>
-                <i className="fab fa-pinterest-square"></i>
-                <i className="fab fa-instagram-square"></i>
+                <i className="topIcon fab fa-facebook-square"></i>
+                <i className="topIcon fab fa-twitter-square"></i>
+                <i className="topIcon fab fa-pinterest-square"></i>
+                <i className="topIcon fab fa-instagram-square"></i>
             </div>
             <div className="topCenter">
                 <ul className="topList">
@@ -22,7 +22,7 @@ const TopBar = () => {
                 <img
                     className="topImg"
                     src="https://images.pexels.com/photos/6195663/pexels-photo-6195663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                <i className='fas fa-search'></i>
+                <i className='searchIcon fas fa-search'></i>
             </div>
         </div>
     )

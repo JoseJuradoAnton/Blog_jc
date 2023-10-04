@@ -1,5 +1,7 @@
 import './App.css'
 import Topbar from '../src/topbar/TopBar'
+import Header from './header/Header'
+import Home from './pages/Home/Home'
 
 function App() {
 
@@ -9,7 +11,8 @@ function App() {
       <div className='App'>
         <Topbar />
 
-        Blob app
+        <Header />
+        <Home />
         <p></p>
       </div>
     </>
