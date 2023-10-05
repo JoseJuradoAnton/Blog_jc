@@ -1,12 +1,17 @@
 import './home.css'
-import Posts from '../../post/Posts'
+import Header from "../../header/Header"
+import Post from '../../post/Post'
 import Sidebar from '../../sidebar/Sidebar'
 const Home = () => {
     return (
-        <div className='home'>
-            <Posts />
-            <Sidebar />
-        </div>
+        <>
+            <Header />
+            <div className="home">
+                <Post />
+                <Sidebar />
+            </div>
+
+        </>
     )
 }
 
